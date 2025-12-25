@@ -1,0 +1,9 @@
+cat > .gitignore << 'EOF'
+.env
+data/
+*.swp
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+EOF
